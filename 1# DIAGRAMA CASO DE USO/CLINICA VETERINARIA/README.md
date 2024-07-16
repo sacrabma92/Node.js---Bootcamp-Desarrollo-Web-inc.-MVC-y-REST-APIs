@@ -17,3 +17,7 @@ Las recetas y otros documentos relacionados con el servicio se incluirán en un 
 * Además, el cliente debe ser capaz de obtener un histórico de todas las consultas que ha recibido cualquiera de sus mascotas.
 
 <img src="img/Auxiliar.svg">
+## Ejemplo Diagrama de casos de uso del actor «auxiliar»
+
+<img src="img/CLIENTE.svg">
+## Ejemplo Diagrama de casos de uso del actor «Cliente»
