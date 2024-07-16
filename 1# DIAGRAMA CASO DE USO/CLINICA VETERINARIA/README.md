@@ -21,3 +21,6 @@ Las recetas y otros documentos relacionados con el servicio se incluirán en un 
 
 <img src="img/CLIENTE.svg">
 ## Ejemplo Diagrama de casos de uso del actor «Cliente»
+
+<img src="img/VETERINARIO.svg">
+Ejemplo Diagrama de casos de uso del actor «veterinario»
