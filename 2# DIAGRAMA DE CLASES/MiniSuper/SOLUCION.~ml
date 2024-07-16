@@ -767,7 +767,7 @@
 <XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="8P2XZZXZh0mAuIaIRkrd2QAA">
 <XPD:ATTR name="Name" type="string">fechaCaducidad</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Date</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">jT6eXYMFzUesGum1+bwuEwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -895,7 +895,7 @@
 <XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="h6xjc21WqUaBqu75wV9a+AAA">
 <XPD:ATTR name="Name" type="string">fechaIngreso</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Date</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">qmcAdLEbAECxfDGD3vxJyAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -927,7 +927,7 @@
 <XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="IgePdlPS30Wm73FgqUuoqQAA">
 <XPD:ATTR name="Name" type="string">fecha</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Date</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">T/x8rG+V002IDHpQAcohEwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -1021,7 +1021,7 @@
 <XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="Lkrz7fdOc0Gk1Ol12NJRowAA">
 <XPD:ATTR name="Name" type="string">fecha</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Date</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">PhOa41tQ7kKv3C884WwLDQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="CopB270i3E+l3ip65xgLbgAA">
@@ -1151,7 +1151,7 @@
 <XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="HSdBHPW2OkG+xwEamvyhiAAA">
 <XPD:ATTR name="Name" type="string">fecha</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Date</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">FkDRiqxiX0KL18Nl+1/LKwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
