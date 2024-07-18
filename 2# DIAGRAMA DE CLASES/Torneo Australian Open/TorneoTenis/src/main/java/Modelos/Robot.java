@@ -4,6 +4,8 @@ public class Robot {
     private String id;
     private String marca;
     private String voltaje;
+    
+    private Camara camara;
 
     public Robot() {
     }
@@ -54,6 +56,20 @@ public class Robot {
      */
     public void setVoltaje(String voltaje) {
         this.voltaje = voltaje;
+    }
+
+    /**
+     * @return the camara
+     */
+    public Camara getCamara() {
+        return camara;
+    }
+
+    /**
+     * @param camara the camara to set
+     */
+    public void setCamara(Camara camara) {
+        this.camara = camara;
     }
     
 }

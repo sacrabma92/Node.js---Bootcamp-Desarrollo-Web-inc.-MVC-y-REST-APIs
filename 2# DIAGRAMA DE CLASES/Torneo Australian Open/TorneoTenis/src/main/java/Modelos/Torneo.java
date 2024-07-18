@@ -8,7 +8,7 @@ public class Torneo {
     
     private LinkedList<Jugador> jugador;
     
-    private LinkedList<Empresa> empresa;
+    private LinkedList<Cancha> cancha;
 
     public Torneo() {
     }
@@ -61,16 +61,16 @@ public class Torneo {
     }
 
     /**
-     * @return the empresa
+     * @return the cancha
      */
-    public LinkedList<Empresa> getEmpresa() {
-        return empresa;
+    public LinkedList<Cancha> getCancha() {
+        return cancha;
     }
 
     /**
-     * @param empresa the empresa to set
+     * @param cancha the cancha to set
      */
-    public void setEmpresa(LinkedList<Empresa> empresa) {
-        this.empresa = empresa;
+    public void setCancha(LinkedList<Cancha> cancha) {
+        this.cancha = cancha;
     }
 }

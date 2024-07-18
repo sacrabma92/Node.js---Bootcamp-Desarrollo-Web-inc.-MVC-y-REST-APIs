@@ -1,6 +1,8 @@
 
 package Modelos;
 
+import java.util.LinkedList;
+
 public class Jugador {
     private String id;
     private String nombre;
@@ -11,7 +13,9 @@ public class Jugador {
     
     private Raqueta raqueta;
     
-    private Torneo torneo;
+    private LinkedList<Partido> partido;
+    
+    private LinkedList<Empresa> empresa;
 
     public Jugador() {
     }
@@ -26,14 +30,14 @@ public class Jugador {
     }
     
     public void describirRaqueta(){
-        System.out.println("El jugador: " + this.nombre);
+        System.out.println("El jugador: " + this.getNombre());
         System.out.println("Marca Raqueta: "+ this.getRaqueta().getMarca());
         System.out.println("Peso: " + this.getRaqueta().getPeso());
     }
     
     public void describirJugador(){
-        System.out.println("El jugador "+this.nombre+" es del pais "+this.nacionalidad+
-                " y tiene "+this.edad+" años y tiene "+this.puntoTorneo);
+        System.out.println("El jugador "+this.getNombre()+" es del pais "+this.getNacionalidad()+
+                " y tiene "+this.getEdad()+" años y tiene "+this.getPuntoTorneo());
     }
 
     /**
@@ -135,17 +139,31 @@ public class Jugador {
     }
 
     /**
-     * @return the torneo
+     * @return the partido
      */
-    public Torneo getTorneo() {
-        return torneo;
+    public LinkedList<Partido> getPartido() {
+        return partido;
     }
 
     /**
-     * @param torneo the torneo to set
+     * @param partido the partido to set
      */
-    public void setTorneo(Torneo torneo) {
-        this.torneo = torneo;
+    public void setPartido(LinkedList<Partido> partido) {
+        this.partido = partido;
+    }
+
+    /**
+     * @return the empresa
+     */
+    public LinkedList<Empresa> getEmpresa() {
+        return empresa;
+    }
+
+    /**
+     * @param empresa the empresa to set
+     */
+    public void setEmpresa(LinkedList<Empresa> empresa) {
+        this.empresa = empresa;
     }
      
 }
